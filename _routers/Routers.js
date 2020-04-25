@@ -6,7 +6,7 @@ import {
   Link
 } from "react-router-dom";
 
-import  User from lazy(()=> import('../_components/user-list/User'));
+import  User from '../_components/user-list/User';
 
 const Routers = ()=>{
   return (
@@ -21,3 +21,6 @@ const Routers = ()=>{
 }
 
 export default Routers;
+const UserDetail = ()=>{
+  return (<h6>User Details!</h6>)
+}
