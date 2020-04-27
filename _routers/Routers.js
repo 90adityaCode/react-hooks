@@ -2,8 +2,8 @@ import React, {lazy} from 'react';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route, 
+  Redirect
 } from "react-router-dom";
 
 import  User from '../_components/user-list/User';
