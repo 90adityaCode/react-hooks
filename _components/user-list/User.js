@@ -36,7 +36,7 @@ const User = ({ name }) => {
       <table class="table">
         <thead>
           <tr>
-            <th>Employee Name</th>
+            <th>Employee Name <i class="fa fa-sort-desc" aria-hidden="true"></i></th>
             <th>Email</th>
             <th>Phone</th>
             <th>Username</th>
